@@ -1,8 +1,17 @@
 <?php
 
-namespace App\Controllers;
+    namespace App\Controllers;
 
-class HomeController
-{
 
-}
+    class HomeController
+    {
+        public function test()
+        {
+            return 'Test page';
+        }
+
+        public function contact()
+        {
+            return 'Contact Page';
+        }
+    }
